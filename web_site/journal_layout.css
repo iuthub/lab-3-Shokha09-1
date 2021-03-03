@@ -1,0 +1,43 @@
+body{
+    background-image: url('images/back.png');
+}
+.insideB {
+    border: 10px solid white;
+    margin: 5px 10%;
+    background-color: white;
+}
+.heading{
+    background-color: #A8F0F0;
+    text-align: right;
+
+}
+.after-heading{
+    margin: 3px;
+    font-size: 10pt;
+}
+#item1, #item2{
+    background-color: #E8FBFB;
+    border: 4px solid #C2E9E9;
+    padding: 5px;
+    height: 150px;
+    display: block;
+}
+#item1:after{
+    margin-top: 10px;
+    height: 160px;
+}
+h2>span{
+    border-bottom: 2px dashed blue;
+}
+#item2 {
+    margin-top: 10px;
+    height: 220px;
+}
+.friends:after{
+    margin: 5px;
+    padding: 2px;
+    border: 5px solid blue;
+    width: 150px;
+}
+
+
